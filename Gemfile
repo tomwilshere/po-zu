@@ -28,6 +28,10 @@ gem 'haml'
 gem 'less-rails'
 gem 'therubyracer'
 
+group :production do
+  gem 'pg' # Postgres Database Support
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
